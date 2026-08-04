@@ -1,0 +1,11 @@
+
+name: Tests Automatiques
+
+on: [push]  # Se déclenche à chaque push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: python3 test.py  # GitHub exécute vos tests TOUT SEUL!
