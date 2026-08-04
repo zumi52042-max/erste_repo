@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: python3 test.py  # GitHub exécute vos tests TOUT SEUL!
+      - run: python3 Erste_python_file_test.py  # GitHub exécute vos tests TOUT SEUL!
