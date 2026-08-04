@@ -1,2 +1,2 @@
 print(Hallo, Welt)
-Fuge automatischen Test hinzu.
+print("Fuge automatischen Test hinzu.")
